@@ -1,11 +1,11 @@
 #HTML5 Phone Mockups
---------------------
 
 iPhone 6 and Microsoft Lumia 640 done. More on their way!
 
 Presenting the two most loved smartphones for you all for free! Download now and start calling.
 
 Built completely in HTML and CSS, even your browser would love to own them. Easy to customize to fit your pocket.
+[Check the demo](http://vipsyvipul.github.io/htmlPhoneMockup/)
 
 ##Use cases
 These mockups can be used in your web projects in any way you want. Some use cases include:
