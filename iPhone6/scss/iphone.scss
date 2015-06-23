@@ -1,0 +1,109 @@
+@import "variables/variables";
+@import "mixins/mixins";
+@import "functions/functions";
+
+
+/**
+*iPhone6 - Mockup
+*/
+.ip-body {
+    position: relative;
+    width: pxToEm($mobile-width);
+    height: pxToEm($mobile-height);
+    margin: pxToEm(40px) auto;
+    background-color: #fff;
+    border: pxToEm(5px) solid rgba(0, 0, 0, 0.1);
+    @include borderRadius(pxToEm(30px));
+    @include boxShadow(0, 0, pxToEm(10px), 0, #444);
+}
+
+.ip-sensor {
+    width: pxToEm($sensor-width);
+    height: pxToEm($sensor-height);
+    margin: pxToEm(15px) auto;
+    background-color: $gray;
+    @include borderRadius(100%);
+}
+
+.ip-cam-rec {
+    position: relative;
+    width: $cam-rec-width;
+    height: pxToEm($cam-rec-height);
+    margin: pxToEm(10px) 0;
+    .cam {
+        position: absolute;
+        width: pxToEm($cam-width);
+        height: pxToEm($cam-height);
+        background-color: $gray;
+        margin-left: pxToEm(60px);
+        margin-top: pxToEm(3px);
+        @include borderRadius(100%);
+    }
+    .rec {
+        position: absolute;
+        width: pxToEm($rec-width);
+        height: pxToEm($rec-height);
+        background-color: $gray;
+        left: pxToEm(150px);
+        margin-left: pxToEm(-60px);
+        margin-top: pxToEm(6px);
+        @include borderRadius;
+    }
+}
+
+.ip-screen {
+    width: pxToEm($screen-width);
+    height: pxToEm($screen-height);
+    margin: pxToEm(25px) auto pxToEm(12px);
+    background-color: $gray;
+}
+
+.ip-thumb-btn {
+    margin: pxToEm(5px) auto;
+    width: pxToEm($thumb-btn-width);
+    height: pxToEm($thumb-btn-height);
+    @include borderRadius(100%);
+    background-color: lighten($gray, 20%);
+    border: pxToEm(3px) solid $gray;
+}
+
+.ip-side-btn {
+    position: absolute;
+    width: pxToEm($side-btn-width);
+    background-color: $gray;
+}
+
+.ip-side-btn-left {
+    border-radius: pxToEm(2px) 0 0 pxToEm(2px);
+}
+
+.ip-side-btn-right {
+    border-radius: 0 pxToEm(2px) pxToEm(2px) 0;
+}
+
+.ip-ring-silent {
+    @extend .ip-side-btn;
+    height: pxToEm($ring-silent-btn-height);
+    top: pxToEm(90px);
+    margin-left: pxToEm(-10px);
+}
+
+.ip-vol-up {
+    @extend .ip-side-btn;
+    height: pxToEm($vol-up-btn-height);
+    top: pxToEm(150px);
+    margin-left: pxToEm(-10px);
+}
+
+.ip-vol-down {
+    @extend .ip-vol-up;
+    top: pxToEm(220px);
+}
+
+.ip-on-off {
+    @extend .ip-side-btn;
+    top: pxToEm(150px);
+    right: 0;
+    height: pxToEm($on-off-btn-height);
+    margin-right: pxToEm(-10px);
+}

@@ -1,0 +1,17 @@
+@import "../variables/variables";
+
+
+//Mixins
+//--Border Radius
+@mixin borderRadius($radius: pxToEm(4px)) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+//--Box Shadow
+@mixin boxShadow($x: pxToEm(5px), $y: pxToEm(5px), $blur: pxToEm(10px), $spread: pxToEm(10px), $color: #000) {
+    -webkit-box-shadow: $x $y $blur $spread $color;
+    box-shadow: $x $y $blur $spread $color;
+}

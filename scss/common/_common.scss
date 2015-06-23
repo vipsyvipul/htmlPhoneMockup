@@ -1,0 +1,80 @@
+/*Specific to portfolio page*/
+$gray: #7e7e7e;
+//Rules
+body {
+    background-color: lighten(#444, 70%);
+}
+.page-td{
+    background-color: rgba(52, 73, 94,1.0);
+    text-align: center;
+}
+.page-td h1{
+    text-align: center;
+    font:{
+        family: 'century gothic',sans-serif;
+        size: 5em;
+    }
+    margin: 0;
+    color: #fff;
+}
+.page-td p{
+    text-align: center;
+    color: #fff;
+    font-family: 'century gothic', sans-serif;
+}
+.page-td button{
+    background-color: transparent;
+    border: 2px solid white;
+    letter-spacing: 1px;
+    font-family: 'century gothic', sans-serif;
+}
+.page-td button:hover{
+    background-color: #fff;
+    color: #444;
+}
+
+.iphone{
+    background: radial-gradient(circle at 61% 50%, #fff, rgba(189, 195, 199,0.7) 35%);
+}
+.prod-title{
+    margin-top: 30%;
+}
+h2 {
+    text-align: center;
+    font: {
+        family: 'Century Gothic', sans-serif;
+        size: 3em;
+    }
+}
+.iphone h2{
+    color: $gray;
+}
+.lumia{
+	background: radial-gradient(circle at 37% 50%, #fff, rgba(49,154,49,1.0) 38%);
+}
+.lumia h2{
+	color: #fff;
+}
+footer{
+    background-color: rgba(52, 73, 94,1.0);
+}
+footer p{
+    font-family: 'century gothic', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+footer p a{
+    color: #fff;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 640px){
+    .prod-title{
+        margin: 0;
+        padding: 10px;
+    }
+    .page-td h1{
+        font-size: 3em;
+    }
+}

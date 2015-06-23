@@ -1,0 +1,32 @@
+body { background-color: #f7f7f7; }
+
+/**
+*iPhone6 - Mockup
+*/
+.ip-body { position: relative; width: 18.75em; height: 38.4375em; margin: 2.5em auto; background-color: #fff; border: 0.3125em solid rgba(0, 0, 0, 0.1); -webkit-border-radius: 1.875em; border-radius: 1.875em; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; -webkit-box-shadow: 0 0 0.625em 0 #444; box-shadow: 0 0 0.625em 0 #444; }
+
+.ip-sensor { width: 0.75em; height: 0.75em; margin: 0.9375em auto; background-color: #7e7e7e; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.ip-cam-rec { position: relative; width: 100%; height: 1.375em; margin: 0.625em 0; }
+.ip-cam-rec .cam { position: absolute; width: 1em; height: 1em; background-color: #7e7e7e; margin-left: 3.75em; margin-top: 0.1875em; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+.ip-cam-rec .rec { position: absolute; width: 6.875em; height: 0.625em; background-color: #7e7e7e; left: 9.375em; margin-left: -3.75em; margin-top: 0.375em; -webkit-border-radius: 0.25em; border-radius: 0.25em; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.ip-screen { width: 17.5em; height: 28.125em; margin: 1.5625em auto 0.75em; background-color: #7e7e7e; }
+
+.ip-thumb-btn { margin: 0.3125em auto; width: 2.6875em; height: 2.6875em; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; background-color: #b1b1b1; border: 0.1875em solid #7e7e7e; }
+
+.ip-side-btn, .ip-ring-silent, .ip-vol-up, .ip-vol-down, .ip-on-off { position: absolute; width: 0.3125em; background-color: #7e7e7e; }
+
+.ip-side-btn-left { border-radius: 0.125em 0 0 0.125em; }
+
+.ip-side-btn-right { border-radius: 0 0.125em 0.125em 0; }
+
+.ip-ring-silent { height: 2.5em; top: 5.625em; margin-left: -0.625em; }
+
+.ip-vol-up, .ip-vol-down { height: 3.75em; top: 9.375em; margin-left: -0.625em; }
+
+.ip-vol-down { top: 13.75em; }
+
+.ip-on-off { top: 9.375em; right: 0; height: 3.75em; margin-right: -0.625em; }
+
+/*# sourceMappingURL=iphone.css.map */
