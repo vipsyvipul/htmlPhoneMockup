@@ -1,11 +1,10 @@
 @import "variables/variables";
 @import "mixins/mixins";
 @import "functions/functions";
-
-
 /**
 *iPhone6 - Mockup
 */
+
 .ip-body {
     position: relative;
     width: pxToEm($mobile-width);
