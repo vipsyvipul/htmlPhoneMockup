@@ -1,0 +1,82 @@
+/*Specific to portfolio page*/
+.page-td { background-color: #34495e; text-align: center; }
+
+.page-td h1 { text-align: center; font-family: 'century gothic',sans-serif; font-size: 5em; margin: 0; color: #fff; }
+
+.page-td p { text-align: center; color: #fff; font-family: 'century gothic', sans-serif; }
+
+.page-td button { background-color: transparent; border: 2px solid white; letter-spacing: 1px; font-family: 'century gothic', sans-serif; }
+
+.page-td button:hover { background-color: #fff; color: #444; }
+
+.iphone { background: radial-gradient(circle at 61% 50%, #fff, rgba(189, 195, 199, 0.7) 35%); }
+
+.prod-title { margin-top: 30%; }
+
+h2 { text-align: center; font-family: 'Century Gothic', sans-serif; font-size: 3em; }
+
+.iphone h2 { color: #7e7e7e; }
+
+.lumia { background: radial-gradient(circle at 37% 50%, #fff, #319a31 38%); }
+
+.lumia h2 { color: #fff; }
+
+footer { background-color: #34495e; }
+
+footer p { font-family: 'century gothic', sans-serif; text-align: center; color: #fff; margin: 0; padding: 10px; }
+
+footer p a { color: #fff; text-decoration: underline; }
+
+@media only screen and (max-width: 640px) { .prod-title { margin: 0; padding: 10px; }
+  .page-td h1 { font-size: 3em; } }
+body { background-color: #f7f7f7; }
+
+/**
+*iPhone6 - Mockup
+*/
+.ip-body { position: relative; width: 18.75em; height: 38.4375em; margin: 2.5em auto; background-color: #fff; border: 0.3125em solid rgba(0, 0, 0, 0.1); -webkit-border-radius: 1.875em; border-radius: 1.875em; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; -webkit-box-shadow: 0 0 0.625em 0 #444; box-shadow: 0 0 0.625em 0 #444; }
+
+.ip-sensor { width: 0.75em; height: 0.75em; margin: 0.9375em auto; background-color: #7e7e7e; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.ip-cam-rec { position: relative; width: 100%; height: 1.375em; margin: 0.625em 0; }
+.ip-cam-rec .cam { position: absolute; width: 1em; height: 1em; background-color: #7e7e7e; margin-left: 3.75em; margin-top: 0.1875em; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+.ip-cam-rec .rec { position: absolute; width: 6.875em; height: 0.625em; background-color: #7e7e7e; left: 9.375em; margin-left: -3.75em; margin-top: 0.375em; -webkit-border-radius: 0.25em; border-radius: 0.25em; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.ip-screen { width: 17.5em; height: 28.125em; margin: 1.5625em auto 0.75em; background-color: #7e7e7e; }
+
+.ip-thumb-btn { margin: 0.3125em auto; width: 2.6875em; height: 2.6875em; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; background-color: #b1b1b1; border: 0.1875em solid #7e7e7e; }
+
+.ip-side-btn, .ip-ring-silent, .ip-vol-up, .ip-vol-down, .ip-on-off { position: absolute; width: 0.3125em; background-color: #7e7e7e; }
+
+.ip-side-btn-left { border-radius: 0.125em 0 0 0.125em; }
+
+.ip-side-btn-right { border-radius: 0 0.125em 0.125em 0; }
+
+.ip-ring-silent { height: 2.5em; top: 5.625em; margin-left: -0.625em; }
+
+.ip-vol-up, .ip-vol-down { height: 3.75em; top: 9.375em; margin-left: -0.625em; }
+
+.ip-vol-down { top: 13.75em; }
+
+.ip-on-off { top: 9.375em; right: 0; height: 3.75em; margin-right: -0.625em; }
+
+/*Lumia 640*/
+.l-body { position: relative; width: 18.75em; height: 37.5em; margin: 2.5em auto; background-color: #000; -webkit-border-radius: 1.875em; border-radius: 1.875em; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; -webkit-box-shadow: 0 0 0 0.3125em #8cbe29; box-shadow: 0 0 0 0.3125em #8cbe29; }
+
+.l-rec { width: 5em; height: 0.5em; background-color: #444; margin: 0 auto; -webkit-border-radius: 0 0 18px 18px; border-radius: 0 0 18px 18px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.l-cam { width: 0.9375em; height: 0.9375em; background-color: #444; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; margin-left: 1.5625em; margin-top: 0.3125em; }
+
+.l-logo { color: #fff; font-family: 'Verdana condensed', sans-serif; font-size: 1em; text-align: center; }
+
+.l-screen { width: 16.5625em; height: 28.75em; background-color: #fff; margin: 2.1875em auto; }
+
+.l-mic { position: absolute; bottom: 0; right: 6.25em; width: 0.75em; height: 0.3125em; background-color: #444; -webkit-border-radius: 2px 2px 0 0; border-radius: 2px 2px 0 0; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.l-side-btn, .l-vol, .l-on-off { position: absolute; width: 0.3125em; background-color: #000; margin-right: -10px; right: 0; -webkit-border-radius: 0 0.5em 0.5em 0; border-radius: 0 0.5em 0.5em 0; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.l-vol { height: 5.3125em; top: 9.375em; }
+
+.l-on-off { height: 2.1875em; top: 17.8125em; }
+
+/*# sourceMappingURL=main.css.map */

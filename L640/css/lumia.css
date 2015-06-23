@@ -1,0 +1,22 @@
+/**
+*Lumia 640 Mockup
+*/
+.l-body { position: relative; width: 18.75em; height: 37.5em; margin: 2.5em auto; background-color: #000; -webkit-border-radius: 1.875em; border-radius: 1.875em; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; -webkit-box-shadow: 0 0 0 0.3125em #8cbe29; box-shadow: 0 0 0 0.3125em #8cbe29; }
+
+.l-rec { width: 5em; height: 0.5em; background-color: #444; margin: 0 auto; -webkit-border-radius: 0 0 18px 18px; border-radius: 0 0 18px 18px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.l-cam { width: 0.9375em; height: 0.9375em; background-color: #444; -webkit-border-radius: 100%; border-radius: 100%; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; margin-left: 1.5625em; margin-top: 0.3125em; }
+
+.l-logo { color: #fff; font-family: 'Verdana condensed', sans-serif; font-size: 1em; text-align: center; }
+
+.l-screen { width: 16.5625em; height: 28.75em; background-color: #fff; margin: 2.1875em auto; }
+
+.l-mic { position: absolute; bottom: 0; right: 6.25em; width: 0.75em; height: 0.3125em; background-color: #444; -webkit-border-radius: 2px 2px 0 0; border-radius: 2px 2px 0 0; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.l-side-btn, .l-vol, .l-on-off { position: absolute; width: 0.3125em; background-color: #000; margin-right: -10px; right: 0; -webkit-border-radius: 0 0.5em 0.5em 0; border-radius: 0 0.5em 0.5em 0; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+
+.l-vol { height: 5.3125em; top: 9.375em; }
+
+.l-on-off { height: 2.1875em; top: 17.8125em; }
+
+/*# sourceMappingURL=lumia.css.map */

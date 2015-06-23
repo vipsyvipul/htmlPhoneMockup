@@ -1,0 +1,80 @@
+@import "variables/variables";
+@import "functions/functions";
+@import "mixins/mixins";
+/**
+*Lumia 640 Mockup
+*/
+
+.l-body {
+    position: relative;
+    width: pxToEm($mobile-width);
+    height: pxToEm($mobile-height);
+    margin: pxToEm(40px) auto;
+    background-color: #000;
+    @include borderRadius(pxToEm(30px));
+    @include boxShadow(0, 0, 0, pxToEm(5px), rgba(140, 190, 41, 1.0));
+}
+
+.l-rec {
+    width: pxToEm($rec-width);
+    height: pxToEm($rec-height);
+    background-color: #444;
+    margin: 0 auto;
+    @include borderRadius(0 0 18px 18px);
+}
+
+.l-cam {
+    width: pxToEm($cam-width);
+    height: pxToEm($cam-height);
+    background-color: #444;
+    @include borderRadius(100%);
+    margin-left: pxToEm(25px);
+    margin-top: pxToEm(5px);
+}
+
+.l-logo {
+    color: #fff;
+    font: {
+        family: 'Verdana condensed', sans-serif;
+        size: 1em;
+    }
+    text-align: center;
+}
+
+.l-screen {
+    width: pxToEm($screen-width);
+    height: pxToEm($screen-height);
+    background-color: #fff;
+    margin: pxToEm(35px) auto;
+}
+
+.l-mic {
+    position: absolute;
+    bottom: 0;
+    right: pxToEm(100px);
+    width: pxToEm($mic-width);
+    height: pxToEm($mic-height);
+    background-color: #444;
+    @include borderRadius(2px 2px 0 0);
+}
+
+.l-side-btn {
+    position: absolute;
+    width: pxToEm($side-btn-width);
+    background-color: #000;
+    margin-right: -10px;
+    right: 0;
+    @include borderRadius(0 pxToEm(8px) pxToEm(8px) 0);
+}
+
+.l-vol {
+    @extend .l-side-btn;
+    height: pxToEm($vol-height);
+    top: pxToEm(150px);
+}
+
+.l-on-off {
+    @extend .l-side-btn;
+    height: pxToEm($on-off-height);
+    top: pxToEm(285px);
+}
